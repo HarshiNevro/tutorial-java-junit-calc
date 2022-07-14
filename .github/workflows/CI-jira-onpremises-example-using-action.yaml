@@ -21,10 +21,10 @@ jobs:
     - name: Submit results to Xray
       uses: mikepenz/xray-action@v2.4.0
       with:
-        username: ${{ secrets.jira_username }}
-        password: ${{ secrets.jira_password }}
-        xrayBaseUrl: ${{ secrets.jira_server_url }}
+        username: ${{ secrets.HarshiDoddapaneni }}
+        password: ${{ secrets.Hydra2020* }}
+        xrayBaseUrl: ${{ secrets.https://nevrocorp.atlassian.net/jira/software/projects/KEY/boards/73}}
         xrayCloud: "false"
         testFormat: "junit"
         testPaths: "**/surefire-reports/*.xml"
-        projectKey: "CALC"
+        projectKey: "KEY"
